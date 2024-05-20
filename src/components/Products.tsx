@@ -14,7 +14,6 @@ interface LocalProps {
     preco: string;
 }
 
-
 const Produtos = () => {
     const [sliderIndex, setSliderIndex] = useState(0);
     const sliderRef = useRef<Slider>(null);

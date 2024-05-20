@@ -31,7 +31,7 @@ export default function Nav() {
                     <button className="text-white text-base md:text-2xl" onClick={() => scrollToSection('about')}>About</button>
                     <button className="text-white text-base md:text-2xl" onClick={() => scrollToSection('contact')}>Contact</button>
                 </div>
-                <button className="bg-none hidden lg:block text-white rounded-md text-base md:text-2xl font-bold py-2 px-4 mt-4 md:mt-0 mr-0 lg:mr-8">
+                <button className="bg-none hidden lg:block text-white rounded-md text-base md:text-2xl font-bold py-2 mt-4 md:mt-0 mr-0 lg:mr-8">
                     Sign up
                 </button>
             </div>

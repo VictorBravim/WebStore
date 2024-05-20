@@ -18,14 +18,14 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' className="h-screen flex justify-center items-center py-12 px-4 md:px-8 lg:px-16">
+        <div id='contact' className="h-full flex justify-center items-center py-12 px-56">
             <div className="w-full mx-auto">
-                <div className="bg-white p-6 shadow-lg rounded-lg mx-auto">
-                    <h2 className="text-2xl font-semibold mb-6 text-center">Contato</h2>
+                <div className="bg-red-custom p-6 shadow-lg rounded-lg mx-auto">
+                    <h2 className="text-white text-2xl font-semibold mb-6 text-left">Contato</h2>
                     {!submitted ? (
                         <form onSubmit={handleSubmit} className="space-y-4">
                             <div>
-                                <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+                                <label htmlFor="name" className="block text-sm font-medium text-white">
                                     Nome
                                 </label>
                                 <input
@@ -39,7 +39,7 @@ const Contact = () => {
                                 />
                             </div>
                             <div>
-                                <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                                <label htmlFor="email" className="block text-sm font-medium text-white">
                                     Email
                                 </label>
                                 <input
@@ -53,7 +53,7 @@ const Contact = () => {
                                 />
                             </div>
                             <div>
-                                <label htmlFor="message" className="block text-sm font-medium text-gray-700">
+                                <label htmlFor="message" className="block text-sm font-medium text-white">
                                     Mensagem
                                 </label>
                                 <textarea
@@ -69,7 +69,7 @@ const Contact = () => {
                             <div>
                                 <button
                                     type="submit"
-                                    className="w-full py-2 px-4 bg-blue-600 text-white font-semibold rounded-md shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                                    className="w-full py-2 px-4 bg-blue-custom text-white font-semibold rounded-md shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                                 >
                                     Enviar
                                 </button>
