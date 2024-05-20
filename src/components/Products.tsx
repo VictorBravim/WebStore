@@ -6,7 +6,11 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
 import { StaticImageData } from 'next/image';
-import banner from '@/assets/banner.png'
+import jordan1 from '@/assets/jordan1.png';
+import jordan2 from '@/assets/jordan2.png';
+import jordan3 from '@/assets/jordan3.png';
+import jordan4 from '@/assets/jordan4.png';
+
 
 interface LocalProps {
     nome: string;
@@ -27,17 +31,22 @@ const Produtos = () => {
     const produtos: LocalProps[] = [
         {
             nome: 'Air Jordan 6',
-            imagem: banner,
+            imagem: jordan1,
             preco: '$1,200',
         },
         {
             nome: 'Air Jordan 6',
-            imagem: banner,
+            imagem: jordan2,
             preco: '$1,200',
         },
         {
             nome: 'Air Jordan 6',
-            imagem: banner,
+            imagem: jordan3,
+            preco: '$1,200',
+        },
+        {
+            nome: 'Air Jordan 6',
+            imagem: jordan4,
             preco: '$1,200',
         },
     ];
