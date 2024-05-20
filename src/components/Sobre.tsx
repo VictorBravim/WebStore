@@ -2,8 +2,9 @@
 'use client';
 import Image from 'next/image';
 import { StaticImageData } from 'next/image';
-import banner from '@/assets/banner.png';
+import banner2 from '@/assets/banner2.png';
 import jordan2 from '@/assets/jordan2.png';
+import jordan5 from '@/assets/jordan5.png';
 
 interface CardProps {
     titulo: string;
@@ -13,11 +14,11 @@ interface CardProps {
 const cards: CardProps[] = [
     {
         titulo: 'Card Superior',
-        imagem: banner,
+        imagem: banner2,
     },
     {
         titulo: 'Card Inferior Esquerdo',
-        imagem: banner,
+        imagem: jordan5,
     },
     {
         titulo: 'Card Inferior Direito',
@@ -41,14 +42,12 @@ const Sobre = () => {
                     </div>
                     <div className="col-span-1">
                         <div className="bg-blue-custom p-6 shadow-lg rounded-lg flex flex-col items-center">
-                            <Image src={cards[1].imagem} alt={cards[1].titulo} width={400} height={250} />
-                            <h2 className="text-xl font-semibold mt-4">{cards[1].titulo}</h2>
+                            <Image src={cards[1].imagem} alt={cards[1].titulo} width={500} height={250} />
                         </div>
                     </div>
                     <div className="col-span-1">
                         <div className="bg-white p-6 shadow-lg rounded-lg flex flex-col items-center">
-                            <h2 className="text-xl font-semibold mt-4">{cards[2].titulo}</h2>
-                            <Image src={cards[2].imagem} alt={cards[2].titulo} width={400} height={250} />
+                            <Image src={cards[2].imagem} alt={cards[2].titulo} width={500} height={250} />
                         </div>
                     </div>
                 </div>
