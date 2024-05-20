@@ -86,19 +86,19 @@ const Produtos = () => {
                 <Slider {...sliderSettings} ref={sliderRef}>
                     {produtos.map((local, index) => (
                         <div key={index} className="px-2 py-2 pb-4 relative">
-                        <div className="bg-blue-custom flex flex-col justify-center items-center p-4 overflow-hidden rounded-lg">
-                            <Image src={local.imagem} alt={local.nome} width={400} height={250} />
-                            <div className="p-4 text-center">
-                                <h3 className="text-4xl text-white mb-2">{local.nome}</h3>
-                                <div className="flex items-center justify-center gap-6">
-                                    <p className="bg-red-custom p-2 px-6 rounded-lg text-xl text-white">{local.preco}</p>
-                                    <button className="bg-white p-2 px-4 rounded-lg text-xl text-black">
-                                        ADD CART
-                                    </button>
+                            <div className="bg-blue-custom flex flex-col justify-center items-center p-4 overflow-hidden rounded-lg">
+                                <Image src={local.imagem} alt={local.nome} width={400} height={250} />
+                                <div className="p-4 text-center">
+                                    <h3 className="text-4xl text-white mb-2">{local.nome}</h3>
+                                    <div className="flex items-center justify-center gap-6">
+                                        <p className="bg-red-custom p-2 px-6 rounded-lg text-xl text-white">{local.preco}</p>
+                                        <button className="bg-white p-2 px-4 rounded-lg text-xl text-black">
+                                            ADD CART
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                     ))}
                 </Slider>
             </div>
