@@ -80,7 +80,7 @@ const Carros = () => {
     };
 
     return (
-        <div id='carros' className="h-screen flex justify-center items-center mb-12 lg:mb-0 py-12 px-4 md:px-8 lg:px-16 bg-cover bg-center" style={{ backgroundImage: "url('/alugar.png')" }}>
+        <div id='carros' className="h-full flex justify-center items-center mb-12 lg:mb-0 py-12 px-4 md:px-8 lg:px-16 bg-cover bg-center" style={{ backgroundImage: "url('/alugar.png')" }}>
             <div className="container mx-auto py-12">
                 <div className="flex justify-between items-center px-5 lg:px-20">
                     <h1 className="text-white text-3xl lg:text-4xl lg:mb-4">Especiais de Hoje</h1>
