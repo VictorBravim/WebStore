@@ -1,5 +1,5 @@
+// Popular.tsx
 'use client';
-
 import Image from 'next/image';
 import { StaticImageData } from 'next/image';
 import banner from '@/assets/banner.png';

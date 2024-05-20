@@ -1,10 +1,8 @@
-// Footer.tsx                    <Image src={logo} alt="Logo" width={120} height={32} />
-import Image from "next/image";
-import logo from '@/assets/logo.webp'
+// Footer.tsx
 
 export default function Footer() {
     return (
-        <footer className="bg-#070A0F text-white p-8">
+        <footer className="text-white p-8">
             <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-between">
                 <div className="flex items-center mb-2 lg:mb-0">
                 </div>

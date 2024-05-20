@@ -1,4 +1,4 @@
-// Carros.tsx
+// Products.tsx
 'use client'
 import React, { useState, useRef } from 'react';
 import Slider from 'react-slick';

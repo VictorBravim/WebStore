@@ -1,8 +1,6 @@
-// Hero.tsx              <Image src={banner1} alt="Texto" width={1200} height={32} />                    <Image src={text} alt="Texto" width={600} height={32} />
+// Hero.tsx
 'use client'
 import { useState, useEffect } from "react";
-import Image from "next/image";
-import banner from '@/assets/banner.png'
 
 export default function Hero() {
     const [isMobile, setIsMobile] = useState(false);
