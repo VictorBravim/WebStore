@@ -28,12 +28,12 @@ const cards: CardProps[] = [
 
 const Sobre = () => {
     return (
-        <div id='about' className="h-full flex flex-col items-center py-12 px-56">
+        <div id='about' className="h-full flex flex-col items-center py-12 lg:px-56">
             <div className="container mx-auto py-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                     <div className="col-span-1 lg:col-span-2 mb-4">
-                        <div className="bg-red-custom p-6 shadow-lg rounded-lg flex flex-row justify-center items-center">
-                            <div className="w-1/2 flex flex-col text-left mb-4">
+                        <div className="bg-red-custom p-6 shadow-lg rounded-lg flex flex-col lg:flex-row justify-center items-center">
+                            <div className="lg:w-1/2 flex flex-col text-left mb-4">
                                 <h1 className="text-9xl font-bold text-white mb-2">Air Jordan 6 <br /> Retro SP</h1>
                                 <span className="text-5xl mb-2">UPTO 60% OFF</span>
                             </div>

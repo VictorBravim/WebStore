@@ -32,7 +32,7 @@ const popular: LocalProps[] = [
 
 const Popular = () => {
     return (
-        <div className="h-full flex justify-center items-center py-12 px-56 bg-cover bg-center" style={{ backgroundImage: "url('/bg2.png')" }}>
+        <div className="h-full flex justify-center items-center py-12 lg:px-56 bg-cover bg-center" style={{ backgroundImage: "url('/bg2.png')" }}>
             <div className="container mx-auto py-12">
                 <div className="flex justify-between items-center px-2">
                     <h1 className="text-white text-3xl lg:text-4xl lg:mb-4">Popular <span className='text-red-custom'>Products</span></h1>

@@ -78,7 +78,7 @@ const Produtos = () => {
     };
 
     return (
-        <div id='product' className="h-full flex justify-center items-center mb-12 lg:mb-0 py-12 px-56 bg-cover bg-center" style={{ backgroundImage: "url('/bg3.png')" }}>
+        <div id='product' className="h-full flex justify-center items-center mb-12 lg:mb-0 py-12 lg:px-56 bg-cover bg-center" style={{ backgroundImage: "url('/bg3.png')" }}>
             <div className="container mx-auto py-12">
                 <div className="flex justify-between items-center px-2">
                     <h1 className="text-white text-3xl lg:text-4xl lg:mb-4">LATEST <span className='text-red-custom'>ARRIVALS</span></h1>

@@ -18,7 +18,7 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' className="h-full flex justify-center items-center py-12 px-56 bg-cover bg-center" style={{ backgroundImage: "url('/bg4.png')" }}>
+        <div id='contact' className="h-full flex justify-center items-center py-12 lg:px-56 bg-cover bg-center" style={{ backgroundImage: "url('/bg4.png')" }}>
             <div className="w-full mx-auto">
                 <div className="bg-red-custom p-6 shadow-lg rounded-lg mx-auto">
                     <h2 className="text-white text-2xl font-semibold mb-6 text-left">Contato</h2>
