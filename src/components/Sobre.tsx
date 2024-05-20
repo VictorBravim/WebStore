@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { StaticImageData } from 'next/image';
 import banner from '@/assets/banner.png';
+import jordan2 from '@/assets/jordan2.png';
 
 interface CardProps {
     titulo: string;
@@ -20,7 +21,7 @@ const cards: CardProps[] = [
     },
     {
         titulo: 'Card Inferior Direito',
-        imagem: banner,
+        imagem: jordan2,
     },
 ];
 
@@ -34,9 +35,6 @@ const Sobre = () => {
                             <div className="w-1/2 flex flex-col text-left mb-4">
                                 <h1 className="text-9xl font-bold text-white mb-2">Air Jordan 6 <br /> Retro SP</h1>
                                 <span className="text-5xl mb-2">UPTO 60% OFF</span>
-                                <button className="bg-blue-custom text-white text-xl font-bold py-2 mb-6 lg:mb-0 px-6 rounded">
-                                    ADD TO CART
-                                </button>
                             </div>
                             <Image src={cards[0].imagem} alt={cards[0].titulo} width={600} height={250} />
                         </div>

@@ -26,7 +26,7 @@ export default function Hero() {
             <div className="relative z-10 text-white w-full lg:w-1/2">
                 <div className="text-left mb-4">
                     <span className="text-5xl mb-2">$225</span>
-                    <h1 className="text-9xl font-bold text-white mb-2">Air Jordan 6 <br /> Retro SP</h1>
+                    <h1 className="text-9xl font-bold text-white mb-2"><span className='text-red-custom'>Air Jordan</span> 6 <br /> Retro WR</h1>
                     <p className="text-xl text-gray-custom font-bold mb-6 pr-0 lg:pr-36">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis ipsum nec metus pulvinar dignissim. Integer id aliquet est, non euismod mi. Sed vel massa ac ex vulputate consectetur vitae faucibus felis. Etiam finibus orci nec suscipit posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies neque quis quam gravida, id malesuada dolor pharetra.</p>
                 </div>
                 <button className="bg-red-custom text-white text-xl font-bold py-2 mb-6 lg:mb-0 px-6 rounded">
