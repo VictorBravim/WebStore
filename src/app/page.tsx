@@ -4,6 +4,7 @@ import Hero from '@/components/Hero';
 import Popular from '@/components/Popular';
 import Products from '@/components/Products';
 import Sobre from '@/components/Sobre';
+import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Popular />
       <Products />
       <Sobre />
+      <Contact />
       <Footer />
     </main>
   );
