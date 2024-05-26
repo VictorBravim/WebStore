@@ -1,6 +1,7 @@
 # 👟 WebStore
 
-![169shots_so](https://github.com/VictorBravim/WebStore/assets/122113588/7d367d57-4196-4b90-a794-272d99da97db)
+![image 14 (1)](https://github.com/VictorBravim/WebStore/assets/122113588/cbfc2ad3-1b96-49bc-bb3f-2d1303820264)
+
 
 ## 🚀 Overview
 
