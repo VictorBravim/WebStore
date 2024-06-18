@@ -2,9 +2,9 @@
 'use client';
 import Image from 'next/image';
 import { StaticImageData } from 'next/image';
-import banner2 from '@/assets/banner2.png';
-import jordan2 from '@/assets/jordan2.png';
-import jordan5 from '@/assets/jordan5.png';
+import banner2 from '@/assets/banner2.webp';
+import jordan2 from '@/assets/jordan2.webp';
+import jordan5 from '@/assets/jordan5.webp';
 
 interface CardProps {
     titulo: string;
