@@ -11,7 +11,7 @@ This project is a Next.js-based web application for an online store called "WebS
 
 - Node.js (version 14 or higher)
 - npm (Node Package Manager)
-
+ 
 ## 🔧 Installation
 
 1. Clone the repository:
