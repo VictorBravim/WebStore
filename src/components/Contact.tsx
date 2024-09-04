@@ -14,7 +14,7 @@ const Contact = () => {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         console.log('Form data:', form);
-        setSubmitted(true);
+        setSubmitted(true); 
     };
 
     return (
